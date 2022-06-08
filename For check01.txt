@@ -1,0 +1,28 @@
+package forcheck1;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("Type a int number: ");
+		Scanner sc= new Scanner(System.in);
+		int a= sc.nextInt();
+		System.out.println("Type a float number: ");
+		float b= sc .nextFloat();
+		System.out.println("Type a charrecter: ");
+		String c= sc.next();
+		System.out.println("Type a Double number: ");
+		double d= sc.nextDouble();
+		double y= a+b+d;
+		double s= a-b-d;
+		double  m=a*b*d;
+		double n=b/d;
+		System.out.println("\nYour int number is: " + a +"\nYour float number is: "+ b +"\nYour string is:"+c+"\n Your Double number is :"+d+"\nThe add of number is:"+y+"\nThe sub of your number:"+s+"\nThe mult. of your number:"+m+"\nThe div of b and d is :"+n);
+		
+		
+				;
+	}
+	
+	
+
+}
